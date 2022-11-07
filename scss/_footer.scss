@@ -1,0 +1,55 @@
+@import "variables";
+
+footer{
+     height:15vh; 
+
+    div{
+        .Redes{
+            box-sizing: border-box;
+            width: 100%;
+        }
+        .navFooter{
+            background-color: $colorSecundario;
+        }
+        div{ 
+            
+            div{
+                .nav{
+                    .nav-link{
+                        border-radius: 3px;
+                        color: $colorGeneral !important ;
+                        background-color:rgba(0, 0, 0, 0);
+
+                        }
+                        .nav-link:hover{
+                            text-decoration: none;
+                            color: $colorSecundario !important;
+                            background-color: $colorFuente;
+                        }
+                }
+
+            }
+            ul{
+                .list-group-item {
+                padding: 5px;
+                 margin-top: 10px;        
+            } 
+                li{
+                    
+                    a{
+                       
+                        .bi {
+                            width: 30px !important;
+                            height: 30px !important;
+                            color: black 
+                        
+                        }
+                        
+                    }
+                    
+                }
+
+            }
+        }
+    }
+}

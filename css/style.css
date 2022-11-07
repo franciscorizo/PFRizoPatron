@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+main {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: #95BFA4;
+}
+main .b-example-divider {
+  height: 3.5rem;
+  background-color: #fff;
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 3px 0;
+  -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+main .carrusel-chico #carouselExampleIndicators div .carrusel-Beneficios {
+  width: 100%;
+  height: 700px;
+}
+main .carrusel-chico #carouselExampleIndicators div .carrusel-Beneficios img {
+  width: 100%;
+  height: 100%;
+}
+main .imgUno {
+  height: 600px;
+  background-image: url(../assets/images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .imgDos {
+  height: 600px;
+  background-image: url(../assets/images/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .imgTres {
+  height: 600px;
+  background-image: url(../assets/images/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .bgFont {
+  background-color: #95BFA4;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+main .bgFont p {
+  font-weight: bold;
+}
+main div .b-example-divider {
+  height: 3.5rem;
+  background-color: #fff;
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 3px 0;
+  -webkit-box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+main div div .parrafos {
+  color: black;
+}
+main .bi {
+  margin-top: 0.125rem;
+  margin-left: 0.125rem;
+  fill: currentcolor;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+main .youtubeVideo {
+  width: 100%;
+  height: 600px;
+}
+main section div div div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main section div div div div .card-img-top {
+  width: 100%;
+  height: 100%;
+}
+main section div div div div .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+main .banner {
+  background: #fff fixed no-repeat 50% 50%;
+  background-size: cover;
+}
+main #parralax {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url(../assets/images/yeso.jpg);
+}
+main div section .card div form .btn-contenedor .btn {
+  background-color: #2B180C;
+}
+main div .imagenesNosotros {
+  width: 100% !important;
+  height: 155px !important;
+}
+main div div div .mapaGoogle {
+  background-color: #2B180C;
+}
+main div div div .segundoCarousel {
+  height: 500px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+main div div div .segundoCarousel .carousel-caption {
+  color: black;
+  background-color: #95BFA4;
+  border-radius: 10px;
+  opacity: 0.8;
+  right: 58%;
+  left: 11%;
+  bottom: 15.25rem;
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+main div div div .segundoCarousel .imgCarrusel {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+body {
+  width: auto;
+  height: auto;
+}
+body .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 27px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+body .float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+}
+body .my-float {
+  margin-top: 16px;
+}
+
+footer {
+  height: 15vh;
+}
+footer div .Redes {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+footer div .navFooter {
+  background-color: #2B180C;
+}
+footer div div div .nav .nav-link {
+  border-radius: 3px;
+  color: #95BFA4 !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+footer div div div .nav .nav-link:hover {
+  text-decoration: none;
+  color: #2B180C !important;
+  background-color: #fff;
+}
+footer div div ul .list-group-item {
+  padding: 5px;
+  margin-top: 10px;
+}
+footer div div ul li a .bi {
+  width: 30px !important;
+  height: 30px !important;
+  color: black;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  main section div div div div .card-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main section div div div div .card-footer input {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  footer div div ul {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+header {
+  height: 13vh;
+}
+header div nav {
+  background-color: #2B180C;
+}
+header div nav div .btn-carrito {
+  margin-right: 20px;
+}
+header div nav div .circulito {
+  background-color: #95BFA4;
+}
+header div nav div div {
+  border-radius: 30px;
+}
+header div nav div div .tituloArriba {
+  color: #fff;
+  background-color: #2B180C;
+}
+header div nav div div .nav-link {
+  border-radius: 3px;
+  color: #95BFA4;
+  background-color: rgba(0, 0, 0, 0);
+}
+header div nav div div .nav-link:hover {
+  text-decoration: none;
+  color: #2B180C;
+  background-color: #fff;
+}

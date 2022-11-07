@@ -1,0 +1,43 @@
+@media (min-width: 0px) and (max-width: 500px) {
+    main{
+        section{
+            div{
+                div{
+                    div{
+                        div{
+                            .card-footer{
+                                flex-direction: column;
+                                align-items: center;
+                                input{
+                                margin-bottom: 10px;
+                                margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        div{
+            div{
+                ul{
+                    flex-direction: column !important;
+
+                }
+            }
+        }
+    }
+
+}
+@media (min-width: 576px) and (max-width: 768px) {
+// .card-footer {display: none;}
+}
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }

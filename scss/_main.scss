@@ -1,0 +1,211 @@
+@import "variables";
+
+main{   
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    .container{
+  
+    }
+    background-color: $colorGeneral;
+    .b-example-divider {
+        height: 3.5rem;
+        background-color:$white;
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 3px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        box-sizing: border-box;
+        width: 100%;
+    
+      }
+    
+    .carrusel-chico{
+        #carouselExampleIndicators{
+            div{   
+              
+                .carrusel-Beneficios{
+                    width: 100%;
+                    height: 700px;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+            }
+
+        }
+    
+    }
+   
+        .imgUno {
+        height: 600px;
+    
+        background-image: url(../assets/images/1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .imgDos {
+        height: 600px;
+    
+        background-image: url(../assets/images/3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .imgTres {
+        height: 600px;
+    
+        background-image: url(../assets/images/6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .bgFont {
+        background-color: $colorGeneral;
+         opacity: 0.8;
+        border-radius: 10px;
+        p{
+            font-weight: bold;
+        }
+        
+
+      }
+       
+        
+        div{
+            .b-example-divider {
+                height: 3.5rem;
+                background-color:$white;
+                border: solid rgba(0, 0, 0, .15);
+                border-width: 3px 0;
+                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+                box-sizing: border-box;
+            
+              
+              }
+            div{    
+                .parrafos {
+                    //  Intenté aplicar esta variable acá pero por algun motivo no me la agarra, siendo que ya la definí en el apartado de variables.
+                    color: black;
+                    // color: $white;
+                    
+                   
+                       
+                }
+            }  
+        }
+        .bi {
+            margin-top: .125rem;
+            margin-left: .125rem;
+            fill: currentcolor;
+            transition: transform .25s ease-in-out;
+            }
+           
+        } 
+        
+    
+           
+           
+
+               
+//  PROPIEDADES DEL CARRUSEL DE INICIO
+main{ 
+    .youtubeVideo{
+        width: 100%;
+        height: 600px;
+    }
+
+    section{
+        div{
+            div{
+                div{
+                    div{display: flex;
+                        flex-direction: column;
+                        .card-img-top{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .card-footer{
+                            display: flex;
+                            flex-direction: row;
+                          
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .banner{
+        background:#fff fixed no-repeat 50% 50%;
+        background-size: cover;
+    }
+    #parralax{
+        align-items: center;
+        text-align: center;
+        background-image: url(../assets/images/yeso.jpg);
+
+    }
+    div{
+        section{
+            .card{
+                div{
+                    form{
+                        .btn-contenedor{
+                            .btn{
+                                background-color: $colorSecundario;
+                            }
+
+                        }
+                    }
+
+                }
+
+            }
+
+        }
+        .imagenesNosotros {
+            width: 100% !important;
+            height: 155px !important;
+        }
+       
+        div{
+            
+            div{
+                .mapaGoogle{
+                    background-color: $colorSecundario;
+                }
+                .segundoCarousel {
+                height: 500px;
+                 background: no-repeat center center scroll; 
+                 -webkit-background-size: cover; 
+                 -moz-background-size: cover;
+                 -o-background-size: cover; 
+                 background-size: cover;  
+                 .carousel-caption{
+                    color: black;
+                    background-color: $colorGeneral;
+                    border-radius: 10px;
+                    opacity: 0.8;
+                    right: 58%;
+                    left: 11%;
+                    bottom: 15.25rem;
+                    padding-top: 3.25rem;
+                    padding-bottom: 3.25rem;
+                 }
+                .imgCarrusel {
+                    width: 100% !important;
+                  height: 100% !important;
+               }
+                      } 
+                      
+                }
+                
+            }
+        
+        }
+    }
+
